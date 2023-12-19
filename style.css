@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Passion+One&display=swap');
+
+:root{
+    --font: 'Amatic SC', sans-serif;
+    --font2: 'Bebas Neue', sans-serif;;
+}
+
+header{
+    font: italic bold 1em var(--font2);
+}
+
+#container{
+    overflow-x: auto;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    font: italic bold 1.2em var(--font);
+}
+
+.cinzaClaro{
+    background-color: lightgray;
+}
+
+.azulClaro{
+    background-color: lightblue;
+}
+.notas{
+    background-color: lightgoldenrodyellow;
+}
+
+thead{
+    background-color: darkgray;
+    color: white;
+}
+
+.mediaGenero{
+    text-align: start;
+    background-color: darkgray;
+    color: white;
+
+}
+
+.mediaGenero > th{
+    text-align: start;
+}
+th,td{
+    border: 2px solid black;
+    text-align: center;
+
+}
